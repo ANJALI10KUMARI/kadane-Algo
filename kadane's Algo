@@ -11,3 +11,5 @@
             }
             ms = Math.max(ms , cs) ;
         }
+        System.out.println("Maximum Sum of SubArray" + ms) ;
+     }
