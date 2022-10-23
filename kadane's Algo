@@ -1,0 +1,13 @@
+ public static void KADuAlgo(int chowming[])
+    {
+        int ms = Integer.MIN_VALUE ;
+        int cs = 0;
+        for(int i=0 ; i<chowming.length ; i++)
+        {
+            cs += chowming[i] ;
+            if(cs < 0)
+            {
+                cs = 0;
+            }
+            ms = Math.max(ms , cs) ;
+        }
